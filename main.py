@@ -4,7 +4,7 @@ import discord
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
-from openai import OpenAI
+
 load_dotenv()
 discord_token = os.getenv('DISCORD_TOKEN')
 gemini_token = os.getenv('GEMINI_TOKEN')
